@@ -7,6 +7,9 @@ body {
     color: #b0b59a;
     max-width: 1000px;
     margin: auto;
+    background-image: url("sand.jpg");
+    background-size: 1200px;
+
 
 }
 
@@ -16,7 +19,7 @@ h1{
 
 .navbar ul{
     list-style-type: none;
-    background-color: #b9d0d3;
+    background-color: #aec9ce;
     padding: 20px;
     margin: 0px;
     overflow: hidden;
@@ -24,7 +27,7 @@ h1{
 }
 
 .navbar a{
-    color: #eae9e8;
+    color: #fffdfb;
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -33,7 +36,7 @@ h1{
 }
 
 .navbar a:hover{
-    background-color: #b0c5c8;
+    background-color: #a9bfc2;
     border-radius: 5px;
 }
 
