@@ -45,15 +45,10 @@ h1{
 }
 
 .project{
-    ;
+    
     
 }
 
-.line {
-    border-width: 3px;
-    bo
-    border-color: 
-}
 
 .button-1 {
     background-color: #EA4C89;
@@ -90,6 +85,14 @@ h1{
   form{
     text-align: center;
   }
+  
+  .thicky {
+    background-color: #b2ccd0;
+    padding: 9px;
+    box-shadow: 3px 3px 3px;
+    border-radius: 10px;
+    
+}
 
 
 

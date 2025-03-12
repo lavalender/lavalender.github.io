@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="If you would like to contact me">
+    <meta name="keywords" content="contact">
     <title>Contact Me-Valerie Burke</title>
-    <meta name="keywords" content="contact"
-    <meta name ="description" content="If you would like to contact me"
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Contact Me</h1>
-    <nav class= "navbar">
+    <nav class="navbar">
         <ul>
             <li><a href="index.html">Homepage</a></li>
             <li><a href="about_me.html">About Me</a></li>
@@ -21,46 +23,49 @@
         </ul>
     </nav>
 
-    <hr>
-    <center><h2 style="text-decoration: underline;">If you would like to contact me </h2></center>
-<h3>
-    <form
-     action="https://form-to-email.steam-center.workers.dev/"
-     method="post""
-    >
-    <input hidden name="send-to" value = "burkevalerie387@gmail.com">
-        <label>First Name: </label>
-        <input type="text" required name="firstname">
-        <br>
-        <br>
-        <label>Last Name: </label name="lastname">
-        <input type="text" required>
-        <br>
-        <p>Preferred Contact(s): </p>
-        <input type="checkbox"> <label>Email</label name="email" value="email" >
-        <br>
-        <input type="checkbox"> <label>Phone</label name="phone" value="phone" >
-        <br>
-        <br>
-        <label>Reason for Contact </label> 
-        <br>
-        <br>
+    <center>
+        <h2 style="text-decoration: underline;">If you would like to contact me </h2>
+    </center>
+    <h3>
+        <form action="https://form-to-email.steam-center.workers.dev/" method="post">
+            <input hidden name="send-to" value="burkevalerie387@gmail.com">
+            <label>First Name: </label>
+            <input type="text" required name="firstname">
+            <br>
+            <br>
+            <label>Last Name: </label>
+            <input type="text" required name="lastname">
+            <br>
+            <p>Preferred Contact(s): </p>
+            <input type="checkbox" name="email" value="email"> <label>Email</label>
+            <br>
+            <input type="checkbox" name="phone" value="phone"> <label>Phone</label>
+            <br>
+            <br>
+            <label>Reason for Contact </label>
+            <br>
+            <br>
             <textarea required> </textarea>
 
-        <br>
-        <button type="submit">
-            <i data-lucide="send"></i>
-        </button>
-        <input type="reset"
+            <br>
+            <button type="submit">
+                <i data-lucide="send"></i>
+            </button>
+            <input type="reset">
 
 
 
-    </form>
-</h3>
+        </form>
+    </h3>
 
-<script src="https://unpkg.com/lucide@latest"></script>
-  <script>
-    lucide.createIcons();
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
     </script>
+    <div class="thicky">
+        <hr>
+    </div>
+    
 </body>
+
 </html>
