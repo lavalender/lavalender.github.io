@@ -1,9 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap');
 body {
     background-color: #f0e5d4;
-    font-family: EB Garamond;
+    font-family: "Indie Flower", cursive;
     font-size: x-large;
+    font-style: normal;
     color: #8e917d;
     max-width: 1000px;
     margin: auto;
@@ -13,17 +14,21 @@ body {
 
 }
 
-h1{
-    text-align: center;
+p{
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar ul{
     list-style-type: none;
-    background-color: #aec9ce;
-    padding: 20px;
-    margin: 0px;
+    background-color:  #e7c6bf;
+    padding: 15px;
+    margin: 20px;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 9px;
+    box-shadow: 4px 4px 4px;
+    opacity: 0.9;
 }
 
 .navbar a{
@@ -32,11 +37,12 @@ h1{
     padding: 15px;
     display: block;
     text-align: center;
+    opacity: 1;
 
 }
 
 .navbar a:hover{
-    background-color: #a9bfc2;
+    background-color: #d1b2ac;
     border-radius: 5px;
 }
 
@@ -44,10 +50,7 @@ h1{
     float:left;
 }
 
-.project{
-    
-    
-}
+
 
 
 .button-1 {
