@@ -91,11 +91,15 @@ p{
   
   .thicky {
     background-color: #b2ccd0;
-    padding: 9px;
-    box-shadow: 3px 3px 3px;
+    padding: 4px;
+    box-shadow: 1px 1px 1px;
     border-radius: 10px;
     
 }
 
+.spacing {
+    margin-right: 30px; }
 
-
+.spacing2 {
+    margin-right: 20px;  
+}
